@@ -139,7 +139,7 @@ input[type="search"] {
 	}
 .wrapper-catalog{
 	display: flex;
-/*justify-content: ;*/
+
 flex-wrap: wrap;
 
 
@@ -162,9 +162,4 @@ flex-wrap: wrap;
 .shopUnitName{
 	font-family: Verdana, sans-serif;
 	 font-size: 110%; 
-/*
-p .main-text{
-	display: block;
-	text-align: center;
 }
-*/

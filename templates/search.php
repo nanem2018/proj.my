@@ -1,4 +1,5 @@
-<div class="row">
+
+    <div class="row">
     <form class="form-group m-3  col-6 search-form" method="get">
         <label for="search">Для осуществления поиска введите Ваш запрос и при необходимости отметьте дополнительные параметры:</label>
         <input name="search" class="search-input mb-3 form-control ds-input" placeholder="<?= isSearch()?$_GET['search']:'Введите Ваш запрос' ?>">
@@ -54,7 +55,7 @@
             </div>
         </details>
         <br>
-        <button type="submit" class="btn btn-primary">Искать!</button>
+        <button type="submit" class="btn btn-info">Искать!</button>
     </form>
 
 </div>
