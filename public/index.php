@@ -1,7 +1,5 @@
 
 <?php
-//require_once ('../engine/init.php');
-//autoload('../engine', 1, ['autoload.php']);
 
 //session_start();
 include '../engine/autoload.php';

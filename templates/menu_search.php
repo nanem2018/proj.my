@@ -14,6 +14,9 @@
         <a class="nav-link" href='/templates/calc.php'>Калькулятор</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href='/templates/contact.php'>Обратная связь</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href='/public/logout.php'>Регистрация</a>
       </li>
      <li class="nav-item">
