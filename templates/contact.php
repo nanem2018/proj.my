@@ -12,7 +12,7 @@ include TEMPLATES_DIR.'menu_search.php';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
-<?php
+<!---<?php
 $title="Контакты";
 $h1="Напишите нам";
 $year=date("Y");
@@ -69,6 +69,7 @@ $year=date("Y");
    document.write(result);
 }
 </script>
+-->
         <form action="mail.php" method="POST"  class="contact_form" name='form'>
              <label>Тема:</label><input type="text" min='6'><br>
              <label>Имя:</label><input type="text" min='4' ><br>

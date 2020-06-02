@@ -11,10 +11,8 @@ autoload('../engine', 1, ['autoload.php']);
 include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'main_menu.php';
-$title="Контакты";
-$h1="Напишите нам";
-$year=date("Y");
 ?>
+
 <head>
 
 
