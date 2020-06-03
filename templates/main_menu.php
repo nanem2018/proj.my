@@ -5,29 +5,29 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href='/public/index.php'>Главная </a>
+        <a class="nav-link" href='index.php'>Главная </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='/templates/cards_main.php'>Каталог</a>
+        <a class="nav-link" href='cards_main.php'>Каталог</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href='/templates/calc.php'>Калькулятор</a>
+        <a class="nav-link" href='calc.php'>Калькулятор</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='/templates/message.php'>Обратная связь</a>
+        <a class="nav-link" href='message.php'>Обратная связь</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='/public/logout.php'>Регистрация</a>
+        <a class="nav-link" href='logout.php'>Регистрация</a>
       </li>
      <li class="nav-item">
-        <a class="nav-link" href='/public/login.php'>Авторизация</a>
+        <a class="nav-link" href='login.php'>Авторизация</a>
       </li>
     </ul>
     <form method="get" class="form-inline my-4 my-lg-0">
       <input class="form-control mr-sm-4" name="search" placeholder="Введите запрос" aria-label="Search">
       
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
-             <a class="btn btn-outline-info btn-sm ml-3" href="/templates/search_block.php">Расширенный поиск</a>
+             <a class="btn btn-outline-info btn-sm ml-3" href="../templates/search_block.php">Расширенный поиск</a>
        </form>
      
   </div>

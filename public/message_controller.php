@@ -3,14 +3,14 @@ include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
 
-$add_name = trim(strip_tags($_POST['add_name']));
-$add_desc = trim(strip_tags($_POST['add_desc']));
-$add_price = (int)trim(strip_tags($_POST['add_price']));
-$add_isActive = (int)$_POST['add_isActive'];
+$mess_name = trim(strip_tags($_POST['mess_name']));
+$mess_desc = trim(strip_tags($_POST['mess_desc']));
+$mess_mail = trim(strip_tags($_POST['mess_mail']));
+$mess_text = trim(strip_tags($_POST['mess_text']));
 
-if ($add_name && $add_desc && $add_price) {
+if ($mess_name && $mess_desc && $mess_mail) {
 
-	$insert_query = sprintf("INSERT INTO `goods` (`good_name`, `good_description`, `good_price`, `is_active`) VALUES (\"%s\", \"%s\", %u, %u);", $add_name, $add_desc, $add_price, $add_isActive);
+	$insert_query = sprintf("INSERT INTO `mess` (`mess_name`, `mess_desc`, `mess_mail`, `mess_text`)  VALUES (\"%s\", \"%s\",\"%s\",\"%s\");", $mess_name, $mess_desc, $mess_mail, $mess_text);
 	executeQuery($insert_query);
 }
 
