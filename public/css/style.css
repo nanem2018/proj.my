@@ -1,6 +1,4 @@
-.container{
 
-}
 .cover-img{
      display: flex;
     flex-wrap: nowrap;
@@ -163,3 +161,10 @@ flex-wrap: wrap;
 	font-family: Verdana, sans-serif;
 	 font-size: 110%; 
 }
+/* стили для контакты */
+input[type="surname"]::first-letter {
+    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+	font-size: 2em; /* Размер шрифта первого символа */
+	color: indigo;
+}
+

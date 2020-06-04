@@ -16,10 +16,10 @@ include TEMPLATES_DIR . 'menu_search.php';
                 <form action="../public/message_controller.php" method="post">
                 <div class="body">
                     <div class="p-2">
-                       <span>Имя:</span> <input name="mess_name" class="mb-3 form-control ds-input" placeholder="Введите Ваше имя">
-                       <span>Тема:</span> <input name="mess_desc" class="mb-3 form-control ds-input" placeholder="Введите тему сообщения">
-                       <span>Email:</span> <input name="mess_mail" class="mb-3 form-control ds-input" placeholder="Введите вашу почту">
-                        <textarea name ="mess_text"rows="8" cols="153" placeholder='Напишите нам'></textarea>   
+                        <span>Имя:</span> <input type="surname" name="mess_name" class="mb-3 form-control ds-inpu" placeholder="Введите Ваше имя" required>
+                       <span>Тема:</span> <input type="text" name="mess_desc" class="mb-3 form-control ds-input"  placeholder="Введите тему сообщения" required>
+                       <span>Email:</span> <input type="email" name="mess_mail" class="mb-3 form-control ds-input" placeholder="Введите вашу почту"  required>
+                        <textarea type ="text" name ="mess_text" rows="8" cols="153" placeholder='Напишите нам' required></textarea>   
                        </div>
                 </div>
              
