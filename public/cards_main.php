@@ -20,7 +20,7 @@
                 <h5 class="card-title"><?=$item['good_name']?></h5>
                 <p class="card-text">Описание: <?=$item['good_description']?></p>
                 <p class="card-text">Цена: <?=$item['good_price']?> Рублей</p>
-                <a href="#" class="btn btn-success">Перейти к товару</a>
+                <a href="card.php" class="btn btn-success">Перейти к товару</a>
             </div>
         </div>
     </div>  

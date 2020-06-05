@@ -162,9 +162,7 @@ flex-wrap: wrap;
 	 font-size: 110%; 
 }
 /* стили для контакты */
-input[type="surname"]::first-letter {
-    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
-	font-size: 2em; /* Размер шрифта первого символа */
-	color: indigo;
+.p-2 input[type="surname"]::first-letter {
+    	font-size: 150%; /* Размер шрифта первого символа */
 }
 

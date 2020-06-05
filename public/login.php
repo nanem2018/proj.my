@@ -10,7 +10,7 @@ include_once ENGINE_DIR . 'login_controller.php';
 
 include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
-include TEMPLATES_DIR . 'main_menu.php';
+include TEMPLATES_DIR . 'menu_search.php';
 //print_r($_SESSION);
 ?>
     <div class="text-center">

@@ -27,7 +27,7 @@
       <input class="form-control mr-sm-4" name="search" placeholder="Введите запрос" aria-label="Search">
       
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
-             <a class="btn btn-outline-info btn-sm ml-3" href="../templates/search_block.php">Расширенный поиск</a>
+             <a class="btn btn-outline-info btn-sm ml-3" href="templates/search_block.php">Расширенный поиск</a>
        </form>
      
   </div>
