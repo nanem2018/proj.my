@@ -1,17 +1,18 @@
 <?php
-          //session_start();
+session_start();
+//var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
 include TEMPLATES_DIR .'header.php';
+//include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'menu_search.php';
+
  ?>
 
 
             
-<p class="main-text" >
-   Отправить нам сообщение
-</p>
+<p class="main-text" >Отправить нам сообщение</p>
 
                 <form action="../public/message_controler.php" method="post">
                 <div class="body">
@@ -25,9 +26,13 @@ include TEMPLATES_DIR . 'menu_search.php';
              
                     <button type="submit" class="btn btn-info ml-3" data-dismiss="modal">Отправить</button>
                     <button type="reset" class="btn btn-info ml-3">Сбросить</button>
+                    <? include TEMPLATES_DIR . 'footer.php';?>
                 </div>
+
+              
             </form>
 
 
       
- 
+ <?php session_write_close();?>
+  

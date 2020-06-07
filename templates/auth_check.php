@@ -7,4 +7,5 @@ if (!$_SESSION['isAuth']){
 }
  ?>
 
-<h5 class="m-1 alert alert-info">Капитан <?=$_SESSION['user_name']?>, добро пожаловать на борт! </h5>
+<!--<h5 class="m-1 alert alert-info">Капитан <?=$_SESSION['user_name']?>, добро пожаловать на борт! </h5>
+--->

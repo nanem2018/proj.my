@@ -1,4 +1,5 @@
 <?php
+session_start();
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
@@ -18,6 +19,7 @@ if ($user_name && $user_login && $user_password && $user_email) {
 	executeQuery($insert_query);
 }
 
+session_write_close();
 header("location: /index.php");
 
 die;

@@ -1,10 +1,14 @@
 <?php
+session_start();
+//var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
 
 include TEMPLATES_DIR . 'header.php';
+//include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'menu_search.php';
+
 ?>
 
 <head>
@@ -76,3 +80,5 @@ include TEMPLATES_DIR . 'menu_search.php';
 <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script>
 </body>
 <? include TEMPLATES_DIR .'footer.php';?>
+
+<?php session_write_close();?>

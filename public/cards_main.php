@@ -1,11 +1,16 @@
+ <?php
+ 
+ //session_start();
+ var_dump($_SESSION);
+include '../engine/autoload.php';
+autoload('../config');
+autoload('../engine', 1, ['autoload.php']);
 
-
-<?include '../engine/autoload.php';?>
-<?autoload('../config');?>
-<?autoload('../engine', 1, ['autoload.php']);?>
-<? include TEMPLATES_DIR .'header.php';?>
-<? include TEMPLATES_DIR .'main_menu.php';?>
-<?include ENGINE_DIR.'goods_table_controler.php';?>
+include TEMPLATES_DIR .'header.php';
+//include TEMPLATES_DIR . 'auth_check.php';
+include TEMPLATES_DIR .'main_menu.php';
+include ENGINE_DIR.'goods_table_controler.php';
+?>
 <p class="main-text" >
     Каталог товаров
 </p>
@@ -26,10 +31,11 @@
     </div>  
   <? endforeach;?> 
 
-
+ 
 
 </div>
 
  <? include TEMPLATES_DIR . 'footer.php';?>
  
 
+ <?php session_write_close();?>

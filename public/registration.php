@@ -1,16 +1,17 @@
 
 <?
 //session_start();
+//var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
-//autoload('../engine', 1, ['autoload.php']);
+autoload('../engine', 1, ['autoload.php']);
 
 //include_once ENGINE_DIR . 'login_controler.php';
 
 include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'menu_search.php';
-//print_r($_SESSION);
+
 ?>
 
 
@@ -69,3 +70,4 @@ include TEMPLATES_DIR . 'menu_search.php';
 </div>
 </div>
 <?php include TEMPLATES_DIR . 'footer.php';?>
+

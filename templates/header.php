@@ -35,12 +35,15 @@
         <?php if($_SESSION['isAuth']):?>
             <span class="navbar-brand">Приветствую Вас, <?=$_SESSION['user_name']?></span>
             <form action="session_destroy.php" method="post">
-                <input name="logout" type="submit" class="btn btn-danger" value="Выход">
+                <input name="logout" type="submit" class="btn btn-outline-danger" value="Выход">
             </form>
         <?php else:?>
 
 
-            <span class="navbar-brand">Здравствуйте, Вы не авторизованны</span>
+            <span class="navbar-brand">Здравствуйте, гость, Вы не авторизованны</span>
+            <a href="/login.php" class="btn btn-outline-info" role="button"
+               aria-pressed="true">Авторизация</a>
+
                 <?php endif;?>
 
     </div>

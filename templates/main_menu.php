@@ -17,10 +17,7 @@
         <a class="nav-link" href='message.php'>Обратная связь</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='regisration.php'>Регистрация</a>
-      </li>
-     <li class="nav-item">
-        <a class="nav-link" href='login.php'>Авторизация</a>
+        <a class="nav-link" href='registration.php'>Регистрация</a>
       </li>
     </ul>
     <form method="get" class="form-inline my-4 my-lg-0">
