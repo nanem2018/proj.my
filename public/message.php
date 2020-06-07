@@ -14,7 +14,7 @@ include TEMPLATES_DIR . 'menu_search.php';
             
 <p class="main-text" >Отправить нам сообщение</p>
 
-                <form action="../public/message_controler.php" method="post">
+                <form action="message_controller.php" method="post">
                 <div class="body">
                     <div class="p-2">
                         <span>Имя:</span> <input type="surname" name="mess_name" class="mb-3 form-control ds-inpu" placeholder="Введите Ваше имя" required>

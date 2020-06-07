@@ -4,7 +4,7 @@ autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
 
 //include ENGINE_DIR . 'image_controller.php';
-include ENGINE_DIR . 'goods_table_controler.php';
+include ENGINE_DIR . 'goods_table_controller.php';
 
  include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';

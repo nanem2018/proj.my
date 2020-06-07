@@ -6,7 +6,7 @@ include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
 
-//include_once ENGINE_DIR . 'login_controler.php';
+//include_once ENGINE_DIR . 'login_controller.php';
 
 include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
@@ -24,7 +24,7 @@ include TEMPLATES_DIR . 'menu_search.php';
   </div>
   
   <div class="panel-body">
-   <form role="form" action="registration_controler.php" method="post">
+   <form role="form" action="registration_controller.php" method="post">
   
             <div class="row">
     			<div class="col-xs-12 col-sm-12 col-md-12">
