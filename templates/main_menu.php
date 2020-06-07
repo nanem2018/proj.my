@@ -17,7 +17,7 @@
         <a class="nav-link" href='message.php'>Обратная связь</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='logout.php'>Регистрация</a>
+        <a class="nav-link" href='regisration.php'>Регистрация</a>
       </li>
      <li class="nav-item">
         <a class="nav-link" href='login.php'>Авторизация</a>

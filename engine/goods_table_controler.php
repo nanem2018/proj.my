@@ -1,12 +1,12 @@
 <?php
 
-$search = trim(strip_tags($_GET['search'])) ?? NULL;
+$search = safe($_GET['search']) ?? NULL;
 $searchBy = $_GET['searchBy'] ?? NULL;
-$sort = trim(strip_tags($_GET['sort'])) ?? NULL;
-$sortOrder = trim(strip_tags($_GET['radioOrder']));
+$sort = safe($_GET['sort']) ?? NULL;
+$sortOrder = safe($_GET['radioOrder']);
 $isActive = $_GET['isActive'];
-$priceMin = (int)trim(strip_tags($_GET['priceMin'])) ?? NULL;
-$priceMax = (int)trim(strip_tags($_GET['priceMax'])) ?? NULL;
+$priceMin = (int)safe($_GET['priceMin']) ?? NULL;
+$priceMax = (int)safe($_GET['priceMax']) ?? NULL;
 
 //сборка запроса
 $search_query = "SELECT * FROM goods";

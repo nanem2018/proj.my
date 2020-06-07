@@ -24,5 +24,24 @@
 
     <title>I-Shop</title>
 </head>
+
+
 <body>
+
 <div class="container">
+<nav class="navbar navbar-light" style="background-color: #F0FFF0;" >
+
+    <div>
+        <?php if($_SESSION['isAuth']):?>
+            <span class="navbar-brand">Приветствую Вас, <?=$_SESSION['user_name']?></span>
+            <form action="session_destroy.php" method="post">
+                <input name="logout" type="submit" class="btn btn-danger" value="Выход">
+            </form>
+        <?php else:?>
+
+
+            <span class="navbar-brand">Здравствуйте, Вы не авторизованны</span>
+                <?php endif;?>
+
+    </div>
+</nav>

@@ -34,3 +34,12 @@ function executeQuery(string $query)
 	mysqli_close($db);
 	return $result;
 }
+
+function getUser ($login) {
+	$query = "SELECT * FROM users WHERE user_login = \"$login\" LIMIT 1";
+
+	$user = getAssocResult($query);
+
+	return $user[0]??false;
+
+}
