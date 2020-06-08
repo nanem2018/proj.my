@@ -10,6 +10,7 @@ $priceMax = (int)safe($_GET['priceMax']) ?? NULL;
 
 //сборка запроса
 $search_query = "SELECT * FROM goods";
+
 //подставляем WHERE только при необходимости
 $search_query .= ($search or $search && $searchBy or $isActive or $priceMin || $priceMax) ? ' WHERE' : '';
 

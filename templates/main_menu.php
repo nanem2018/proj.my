@@ -19,12 +19,14 @@
       <li class="nav-item">
         <a class="nav-link" href='registration.php'>Регистрация</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href='peson-data.php'>Личный кабинет</a>
+      </li>
     </ul>
     <form method="get" class="form-inline my-4 my-lg-0">
-      <input class="form-control mr-sm-4" name="search" placeholder="Введите запрос" aria-label="Search">
-      
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
-             <a class="btn btn-outline-info btn-sm ml-3" href="templates/search_block.php">Расширенный поиск</a>
+      <input class="form-control mr-sm-2" name="search" placeholder="Введите запрос" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm " type="submit">Поиск</button>
+             <a class="btn btn-outline-info btn-sm ml-2" href="templates/search_block.php">Расширенный поиск</a>
        </form>
      
   </div>
