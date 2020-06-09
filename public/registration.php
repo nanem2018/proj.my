@@ -1,7 +1,7 @@
 
 <?
-//session_start();
-//var_dump($_SESSION);
+session_start();
+var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);

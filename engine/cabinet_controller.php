@@ -9,6 +9,9 @@ $priceMin = (int)safe($_GET['priceMin']) ?? NULL;
 $priceMax = (int)safe($_GET['priceMax']) ?? NULL;
 */
 //сборка запроса
+//
+//echo $user_cabinet;
+//var_dump($_SESSION['user_name']);
 $search_query = "SELECT * FROM users";
 
 //подставляем WHERE только при необходимости

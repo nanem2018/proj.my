@@ -18,6 +18,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href='registration.php'>Регистрация</a>
+        <li class="nav-item">
+        <a class="nav-link" href='cabinet.php'>Личный кабинет</a>
+      </li>
       </li>
     </ul>
        

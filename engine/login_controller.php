@@ -17,6 +17,7 @@ if ($user) {
 	if (password_verify($password, $user['user_password'])) {
 		$_SESSION['isAuth'] = true;
 		$_SESSION['user_name'] = $user['user_name'];
+		$_SESSION['user_login'] = $login;
 
 		session_write_close();
 		header('location: /index.php');

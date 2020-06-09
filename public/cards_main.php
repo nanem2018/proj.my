@@ -1,6 +1,6 @@
  <?php
  
- //session_start();
+ session_start();
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
