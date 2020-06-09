@@ -20,7 +20,7 @@
         <a class="nav-link" href='registration.php'>Регистрация</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href='peson-data.php'>Личный кабинет</a>
+        <a class="nav-link" href='cabinet.php'>Личный кабинет</a>
       </li>
     </ul>
     <form method="get" class="form-inline my-4 my-lg-0">
