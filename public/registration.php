@@ -1,17 +1,28 @@
 
-<?
-session_start();
+
+<?php
+//session_start();
 var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
+include TEMPLATES_DIR .'header.php';
+//include TEMPLATES_DIR . 'auth_check.php';
 
-//include_once ENGINE_DIR . 'login_controller.php';
 
-include TEMPLATES_DIR . 'header.php';
+//session_start();
+//(['read_and_close' => true]);
+//var_dump($_SESSION['user_name']);
+//include '../engine/autoload.php';
+//autoload('../config');
+//autoload('../engine', 1, ['autoload.php']);
+
+
+
+//include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'menu_search.php';
-
+//include_once ENGINE_DIR . 'login_controller.php';
 ?>
 
 

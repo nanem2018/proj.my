@@ -1,8 +1,8 @@
 <?php
 
 
-session_start();
-
+//session_start();
+//var_dump($_SESSION['user_name']);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
@@ -12,12 +12,12 @@ include_once ENGINE_DIR . 'login_controller.php';
 include TEMPLATES_DIR . 'header.php';
 
 //include TEMPLATES_DIR . 'auth_check.php';
-//include TEMPLATES_DIR . 'menu_search.php';
+include TEMPLATES_DIR . 'menu_search.php';
 
 ?>
     <div class="text-center">
   
-        <form class=" form-signin" method="post">
+        <form class="form-signin" method="post" >
             <span class="h3 mb-3 font-weight-normal ">АВТОРИЗАЦИЯ</span>
             <div class="mt-3 form-group">
                 <input name="login" class="form-control" id="inputEmail" placeholder="Login">
@@ -43,3 +43,5 @@ include TEMPLATES_DIR . 'header.php';
 
     </div>
 <?php include TEMPLATES_DIR . 'footer.php';?>
+
+<?// session_write_close();?>

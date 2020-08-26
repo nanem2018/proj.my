@@ -1,6 +1,6 @@
 <?php
 
-session_start();
+//session_start();
 
 $login = '';
 $password = '';
@@ -18,9 +18,9 @@ if ($user) {
 		$_SESSION['isAuth'] = true;
 		$_SESSION['user_name'] = $user['user_name'];
 		$_SESSION['user_login'] = $login;
-
+		
 		session_write_close();
-		header('location: /index.php');
+	    header('location: /');	
 		die;
 	}
 	else {
@@ -38,6 +38,6 @@ else {
 }
 
 
-session_write_close();
+//session_write_close();
 
 ?>

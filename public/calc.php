@@ -1,6 +1,7 @@
 <?php
+
 session_start();
-var_dump($_SESSION);
+//var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
@@ -8,7 +9,7 @@ autoload('../engine', 1, ['autoload.php']);
 include TEMPLATES_DIR . 'header.php';
 //include TEMPLATES_DIR . 'auth_check.php';
 include TEMPLATES_DIR . 'menu_search.php';
-
+//include_once ENGINE_DIR . 'login_controller.php';
 ?>
 
 <head>
@@ -81,4 +82,3 @@ include TEMPLATES_DIR . 'menu_search.php';
 </body>
 <? include TEMPLATES_DIR .'footer.php';?>
 
-<?php session_write_close();?>

@@ -1,8 +1,9 @@
 <?php
-session_start();
+//session_start();
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
+//include_once ENGINE_DIR . 'login_controller.php';
 ?>
 <?
 $user_name = safe($_POST['first_name']);

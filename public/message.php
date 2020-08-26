@@ -1,6 +1,6 @@
 <?php
 session_start();
-var_dump($_SESSION);
+//var_dump($_SESSION);
 include '../engine/autoload.php';
 autoload('../config');
 autoload('../engine', 1, ['autoload.php']);
@@ -34,5 +34,5 @@ include TEMPLATES_DIR . 'menu_search.php';
 
 
       
- <?php session_write_close();?>
+ 
   
