@@ -1,7 +1,8 @@
 <?php
 
 
-//session_start();
+session_start();
+
 //var_dump($_SESSION['user_name']);
 include '../engine/autoload.php';
 autoload('../config');

@@ -22,5 +22,5 @@ include TEMPLATES_DIR . 'footer.php';
   
 //session_write_close();
 
-?>
+
 

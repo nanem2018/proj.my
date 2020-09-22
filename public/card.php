@@ -60,9 +60,9 @@ include_once ENGINE_DIR . 'login_controller.php';
 
 
 
-             
-    
+            
 <script src="app.js"></script>
+
  <? include TEMPLATES_DIR . 'footer.php';?>
  
 
